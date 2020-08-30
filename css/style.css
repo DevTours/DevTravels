@@ -1,0 +1,1002 @@
+body {
+	font-family: 'Oxygen';
+	font-size: 22px;
+	color: #000;
+	background-color: #FFF; 
+}
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #272833;
+}
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	margin: 15px 15px 15px 0;
+}
+.navbar-brand span {
+	color: #F5F5F5;
+}
+.navbar-brand span i {
+	font-size: 1.5em;
+	color: #F0A500;
+}
+#nav-list {
+	margin-left: auto;
+}
+#nav-list a {
+	color: #F5F5F5;
+	text-align: center;
+	margin-right: 25px;
+}
+#nav-list a:hover {
+	color: #000;
+	background-color: #F5F5F5;
+}
+#nav-list a span {
+	font-size: 1.2em;
+}
+.navbar-header button {
+	margin: 25px 20px 25px 200px;
+}
+.navbar-header button.navbar-toggler {
+	border: 1px solid #fff;
+}
+
+/** END OF HEADER **/
+
+/** HEADING CONTENT **/
+#headingcontent{
+	margin-top: 20px;
+	background-color: #FFF;
+}
+#main-head {
+	background-color: #F5F5F5;
+	color: #272833;
+}
+#main-head h1{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+}
+.lead {
+	font-size: 1.1em;
+}
+#brif-info p {
+	font-size: 22px;
+	padding-top: 10px;
+}
+#headingcontent a {
+	float: left;
+	margin-top: 5px;
+	border: 1px solid #000;
+	background-color: #272833;
+	color: #fff;
+}
+#headingcontent a span {
+	text-transform: uppercase;
+	padding: 5px;
+	font-size: 20px;
+}
+#headingcontent a:hover {
+	background-color: #CF7500;
+	font-weight: bold;
+}
+
+/** END OF HEADING CONTENT **/
+
+/** SERVICES **/
+#services {
+	background-color: #F0A500;
+	margin-top: 90px; 
+	padding: 50px;
+}
+#offer h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color: #272833;
+}
+#service-tile {
+	text-align: center;
+}
+#service-tile span {
+	display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #272833;
+    line-height: 70px;
+    position: relative;
+}
+#service-tile span .fas {
+	color: #F0A500;
+	font-size: 25px;
+}
+#service-tile h4 {
+	margin: 20px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: 600;
+	color: #272833;
+
+}
+#service-tile p {
+	font-size: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: #272833;
+}
+#service-tile {
+	margin-top: 50px;
+}
+
+/** END OF SERVICES **/
+/** CAR RATE AND CLASS **/
+#diffclass {
+	text-align: center;
+	background-color: #FFF;
+	padding-bottom: 80px;	
+}
+#carclass-heading h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 60px;
+	color: #272833;
+}
+#carclass-heading span {
+	font-size: .9em;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #272833;
+}
+#carchoosing {
+	margin-top: 40px;
+	padding: 50px;
+}
+#carouselExampleIndicators1, #carouselExampleIndicators2, #carouselExampleIndicators3 {
+	display: inline-block;
+	border-radius: 100% ;
+	position: relative;
+	background-color: #F0A500;
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+}
+#carouselExampleIndicators1 .carousel-inner span, #carouselExampleIndicators2 .carousel-inner span, 
+#carouselExampleIndicators3 .carousel-inner span {
+	display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #272833;
+    line-height: 70px;
+    position: relative;
+    margin-top: 120px;
+}
+#carouselExampleIndicators1 .carousel-inner span .fas, #carouselExampleIndicators2 .carousel-inner span .fas,
+#carouselExampleIndicators3 .carousel-inner span .fas {
+	color: #F5F5F5;
+	font-size: 35px;
+}
+#carouselExampleIndicators1 .carousel-item h3, #carouselExampleIndicators2 .carousel-item h3,
+#carouselExampleIndicators3 .carousel-item h3 {
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #272833;
+}
+#carouselExampleIndicators1 .carousel-item p, #carouselExampleIndicators2 .carousel-item p,
+#carouselExampleIndicators3 .carousel-item p {
+	margin: 80px;
+	font-size: 20px;
+	color: #272833;
+}
+#carouselExampleIndicators1 .carousel-item h4, #carouselExampleIndicators2 .carousel-item h4,
+#carouselExampleIndicators3 .carousel-item h4 {
+	margin: 100px;
+	font-size: 35px;
+	color: #272833;
+}
+/** END OF CAR RATE AND CLASS **/
+/** ABOUT DEV */
+#about-us {
+	background-color: #F5F5F5;
+	padding-bottom: 50px;
+}
+#about {
+	margin-top: 90px;
+	color: #272833;
+}
+#about-head h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color: #272833;
+}
+#about-tile h4 {
+	font-size: 1.8em;
+	text-transform: capitalize;
+	margin: 20px;
+	font-weight: 550;
+}
+#about-tile h5 {
+	font-size: 1.3em;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin: 20px;
+}
+#about-tile p {
+	font-size: 20px;
+	margin: 20px;
+	text-align: justify;
+}
+#about-tile img {
+	margin-top: 100px;
+}
+#cabrange {
+	background-color: #272833;
+	color: #FFF;
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+#cabrange p {
+	padding: 2px;
+}
+/** END OF ABOUT DEV */
+
+/** CONTECT **/
+#contect {
+	background-color: #F0A500;
+	padding-bottom: 80px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #272833;
+}
+#contect-head h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+#contect h5 {
+	font-size: 1.5em;
+	text-transform: capitalize;
+	margin-top: 80px;
+}
+#contect a:hover{
+	font-size: 1.1em;
+	text-decoration: none;
+}
+#contect a h4 {
+	font-size: 3em;
+	text-shadow: 3px 3px 3px #CF7500;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #272833;
+}
+#contect h6 {
+	font-size: 1.3em;
+}
+/** END OF CONTECT **/
+/** REVIEW **/
+#review {
+	color: #272833;
+	padding-bottom: 100px;
+}
+#review-head h3{
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+#carouselExampleIndicators4{
+	display: inline-block;
+	position: relative;
+	background-color: #CF7500;
+	width: 80%;
+	height: 300px;
+	overflow: hidden;
+	box-shadow: 20px 20px 20px #272833;
+}
+#carouselExampleIndicators4 .carousel-inner .carousel-item {
+	padding: 80px 150px 80px 150px;
+}
+#carouselExampleIndicators4 .carousel-inner .carousel-item p {
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #F5F5F5;
+	text-shadow: 2px 2px 2px #272833;
+}
+#carouselExampleIndicators4 .carousel-inner .carousel-item h5 {
+	font-size: 28px;
+	text-shadow: 2px 2px 2px #F0A500;
+}
+/* Footer */
+.panel-footer {
+	background-color: #272833;
+	color: #F5F5F5;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#phone > span, #address > span {
+		font-weight: 590;
+}
+#phone , #address {
+		font-size: 20px;
+}
+#copy p {
+	font-size: 25px;
+}
+.Handcrafted {
+	text-align: right;
+	font-size: 15px;
+}
+.Handcrafted span b {
+	color: #F0A500;
+	font-size: 20px;
+}
+/* End Footer */
+
+
+	/** END OF REVIEW **/
+/*****		EXTRA LARGE DEVICE ONLY			*****/
+@media (min-width: 1200px) {
+
+}
+
+/*****		LARGE DEVICE ONLY			*****/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/** HEADING CONTENT **/
+	
+	#main-head h1{
+		font-size: 2.3em;
+	}
+	.lead {
+		font-size: 1em;
+	}
+	#brif-info p {
+		font-size: 20px;
+		padding-top: 7px;
+	}
+	#headingcontent a {
+		font-size: 17px;
+	}
+
+	/**END OF HEADING CONTENT **/
+	
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.5em;
+	}
+	#service-tile h4 {
+		font-size: 20px;
+	}
+	#service-tile p {
+		font-size: 18px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.5em;
+	}
+	#carclass-heading span {
+		font-size: .8em;
+	}
+	#carchoosing {
+		padding: 40px;
+	}
+	#carouselExampleIndicators1, #carouselExampleIndicators2, #carouselExampleIndicators3 {
+		width: 300px;
+		height: 300px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span, #carouselExampleIndicators2 .carousel-inner span, 
+	#carouselExampleIndicators3 .carousel-inner span {
+		margin-top: 90px;
+		width: 70px;
+    	height: 70px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span .fas, #carouselExampleIndicators2 .carousel-inner span .fas,
+	#carouselExampleIndicators3 .carousel-inner span .fas {
+		font-size: 35px;
+	}
+	#carouselExampleIndicators1 .carousel-item h3, #carouselExampleIndicators2 .carousel-item h3,
+	#carouselExampleIndicators3 .carousel-item h3 {
+		font-size: 25px;
+	}
+	#carouselExampleIndicators1 .carousel-item p, #carouselExampleIndicators2 .carousel-item p,
+	#carouselExampleIndicators3 .carousel-item p {
+		font-size: 17px;
+		margin: 60px;
+	}
+	#carouselExampleIndicators1 .carousel-item h4, #carouselExampleIndicators2 .carousel-item h4,
+	#carouselExampleIndicators3 .carousel-item h4 {
+		margin: 80px;
+		font-size: 28px;
+	}
+	
+	/** END OF CAR RATE AND CLASS **/
+	/** ABOUT DEV */
+	#about-head h3 {
+		font-size: 1.6em;
+	}
+	#about-tile h4 {
+		font-size: 1.5em;
+	}
+	#about-tile h5 {
+		font-size: 1.1em;
+	}
+	#about-tile p {
+		font-size: 18px;
+	}
+	#about-tile img {
+		margin-top: 150px;
+	}
+	#cabrange {
+		font-size: 16px;
+	}
+	/** END OF ABOUT DEV */
+		/** CONTECT **/
+	#contect-head h3 {
+		font-size: 1.6em;
+	}
+	#contect h5 {
+		font-size: 1.4em;
+	}
+	#contect a:hover{
+		font-size: 1.1em;
+	}
+	#contect a h4 {
+		font-size: 2.8em;
+	}
+	#contect h6 {
+		font-size: 1.2em;
+	}
+	/** END OF CONTECT **/
+	/** REVIEW **/
+	.review-head h3{
+		font-size: 1.6em;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item p {
+		font-size: 25px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item h5 {
+		font-size: 28px;
+	}
+	/** END OF REVIEW **/
+	/* Footer */
+	#phone , #address {
+		font-size: 20px;
+	}
+	#info {
+		font-size: 20px;
+	}
+	#copy p {
+		font-size: 22px;
+	}
+	/* End Footer */
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 18px;
+	}
+}
+
+/*****		MEDIUM DEVICE ONLY			*****/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/** HEADING CONTENT **/
+	
+	#main-head h1{
+		font-size: 2.3em;
+	}
+	.lead {
+		font-size: 1em;
+	}
+	#brif-info p {
+		font-size: 20px;
+		padding-top: 7px;
+	}
+	#headingcontent a {
+		font-size: 17px;
+	}
+
+	/**END OF HEADING CONTENT **/
+	
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.5em;
+	}
+	#service-tile h4 {
+		font-size: 20px;
+	}
+	#service-tile p {
+		font-size: 18px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.5em;
+	}
+	#carclass-heading span {
+		font-size: .8em;
+	}
+	#carchoosing {
+		padding: 0;
+	}
+	#carouselExampleIndicators1, #carouselExampleIndicators2, #carouselExampleIndicators3 {
+		width: 250px;
+		height: 250px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span, #carouselExampleIndicators2 .carousel-inner span, 
+	#carouselExampleIndicators3 .carousel-inner span {
+		margin-top: 60px;
+		width: 60px;
+    	height: 60px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span .fas, #carouselExampleIndicators2 .carousel-inner span .fas,
+	#carouselExampleIndicators3 .carousel-inner span .fas {
+		font-size: 30px;
+	}
+	#carouselExampleIndicators1 .carousel-item h3, #carouselExampleIndicators2 .carousel-item h3,
+	#carouselExampleIndicators3 .carousel-item h3 {
+		font-size: 22px;
+	}
+	#carouselExampleIndicators1 .carousel-item p, #carouselExampleIndicators2 .carousel-item p,
+	#carouselExampleIndicators3 .carousel-item p {
+		font-size: 14px;
+		margin: 50px;
+	}
+	#carouselExampleIndicators1 .carousel-item h4, #carouselExampleIndicators2 .carousel-item h4,
+	#carouselExampleIndicators3 .carousel-item h4 {
+		margin: 60px;
+		font-size: 24px;
+	}
+	
+	/** END OF CAR RATE AND CLASS **/
+	/** ABOUT DEV */
+	#about {
+		margin-top: 50px;
+	}
+	#about-head h3 {
+		font-size: 1.6em;
+	}
+	#about-tile h4 {
+		font-size: 1.5em;
+	}
+	#about-tile h5 {
+		font-size: 1.1em;
+	}
+	#about-tile p {
+		font-size: 18px;
+	}
+	#about-tile img {
+		margin: 25px 20px 25px 20px;
+	}
+	#cabrange {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	/** END OF ABOUT DEV */
+	/** CONTECT **/
+	#contect-head h3 {
+		font-size: 1.6em;
+	}
+	#contect h5 {
+		font-size: 1.3em;
+	}
+	#contect a:hover{
+		font-size: 1.1em;
+	}
+	#contect a h4 {
+		font-size: 2.5em;
+	}
+	#contect h6 {
+		font-size: 1.1em;
+	}
+	/** END OF CONTECT **/
+	/** REVIEW **/
+	.review-head h3{
+		font-size: 1.5em;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item p {
+		font-size: 23px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item h5 {
+		font-size: 25px;
+	}
+	/** END OF REVIEW **/
+	/* Footer */
+	#phone , #address {
+		font-size: 20px;
+	}
+	#info {
+		font-size: 18px;
+	}
+	#copy p {
+		font-size: 20px;
+	}
+	/* End Footer */
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 18px;
+	}	
+	
+}
+
+/*****		SMALL DEVICE ONLY		*****/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	/** HEADING CONTENT **/
+
+	#main-head h1{
+		font-size: 2em;
+	}
+	.lead {
+		font-size: .8em;
+	}
+	#brif-info p {
+		font-size: 18px;
+		padding-top: 5px;
+	}
+	#headingcontent a {
+		font-size: 15px;
+	}
+	/** END HEADING CONTENT **/
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.3em;
+	}
+	#service-tile h4 {
+		font-size: 18px;
+	}
+	#service-tile p {
+		font-size: 16px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.3em;
+	}
+	#carclass-heading span {
+	font-size: .7em;
+	}
+	#carchoosing {
+		padding: 0;
+	}
+	#carouselExampleIndicators1, #carouselExampleIndicators2, #carouselExampleIndicators3 {
+		width: 290px;
+		height: 290px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span, #carouselExampleIndicators2 .carousel-inner span, 
+	#carouselExampleIndicators3 .carousel-inner span {
+		margin-top: 90px;
+		width: 70px;
+    	height: 70px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span .fas, #carouselExampleIndicators2 .carousel-inner span .fas,
+	#carouselExampleIndicators3 .carousel-inner span .fas {
+		font-size: 35px;
+	}
+	#carouselExampleIndicators1 .carousel-item h3, #carouselExampleIndicators2 .carousel-item h3,
+	#carouselExampleIndicators3 .carousel-item h3 {
+		font-size: 25px;
+	}
+	#carouselExampleIndicators1 .carousel-item p, #carouselExampleIndicators2 .carousel-item p,
+	#carouselExampleIndicators3 .carousel-item p {
+		font-size: 17px;
+		margin: 60px;
+	}
+	#carouselExampleIndicators1 .carousel-item h4, #carouselExampleIndicators2 .carousel-item h4,
+	#carouselExampleIndicators3 .carousel-item h4 {
+		margin: 80px;
+		font-size: 28px;
+	}
+	
+	/** END OF CAR RATE AND CLASS **/
+	/** ABOUT DEV */
+	#about {
+		margin-top: 50px;
+	}
+	#about-head h3 {
+		font-size: 1.4em;
+	}
+	#about-tile h4 {
+		font-size: 1.3em;
+	}
+	#about-tile h5 {
+		font-size: 1em;
+	}
+	#about-tile p {
+		font-size: 16px;
+	}
+	#about-tile img {
+		margin: 25px 20px 25px 20px;
+	}
+	#cabrange {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	/** END OF ABOUT DEV */
+	/** CONTECT **/
+	#contect-head h3 {
+		font-size: 1.4em;
+	}
+	#contect h5 {
+		font-size: 1.1em;
+	}
+	#contect a:hover{
+		font-size: 1.1em;
+	}
+	#contect a h4 {
+		font-size: 2em;
+	}
+	#contect h6 {
+		font-size: 1.1em;
+	}
+	/** END OF CONTECT **/
+	/** REVIEW **/
+	.review-head h3{
+		font-size: 1.5em;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item {
+		padding: 80px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item p {
+		font-size: 20px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item h5 {
+		font-size: 23px;
+	}
+	/** END OF REVIEW **/
+	#phone , #address {
+		font-size: 18px;
+	}
+	#info {
+		font-size: 16px;
+	}
+	#copy p {
+		font-size: 19px;
+	}
+	/* End Footer */
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 18px;
+	}
+}
+
+/*****		EXTRA SUPER SMALL DEVICE ONLY		*****/
+@media (max-width: 575.98px) {
+	
+	/** HEADER **/
+
+	.navbar-brand {
+		height: 50px;
+		font-size: 6vw;	
+		margin-left: 20px;
+	}
+	#nav-list a {
+		margin-right: 0;
+	}
+	#nav-list a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	/** END OF HEADER **/
+	/** HEADING CONTENT **/
+
+	#main-head h1{
+		font-size: 1.7em;
+	}
+	.lead {
+		font-size: .7em;
+	}
+	#brif-info p {
+		font-size: 15px;
+		padding-top: 3px;
+	}
+	#headingcontent a {
+		font-size: 12px;
+	}
+	
+	/** END HEADING CONTENT **/
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.2em;
+	}
+	#service-tile h4 {
+		font-size: 18px;
+	}
+	#service-tile p {
+		font-size: 15px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.2em;
+	}
+	#carclass-heading span {
+	font-size: .6em;
+	}
+	#carchoosing {
+		padding: 0;
+	}
+	#carouselExampleIndicators1, #carouselExampleIndicators2, #carouselExampleIndicators3 {
+		width: 250px;
+		height: 250px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span, #carouselExampleIndicators2 .carousel-inner span, 
+	#carouselExampleIndicators3 .carousel-inner span {
+		margin-top: 60px;
+		width: 60px;
+    	height: 60px;
+	}
+	#carouselExampleIndicators1 .carousel-inner span .fas, #carouselExampleIndicators2 .carousel-inner span .fas,
+	#carouselExampleIndicators3 .carousel-inner span .fas {
+		font-size: 30px;
+	}
+	#carouselExampleIndicators1 .carousel-item h3, #carouselExampleIndicators2 .carousel-item h3,
+	#carouselExampleIndicators3 .carousel-item h3 {
+		font-size: 22px;
+	}
+	#carouselExampleIndicators1 .carousel-item p, #carouselExampleIndicators2 .carousel-item p,
+	#carouselExampleIndicators3 .carousel-item p {
+		font-size: 14px;
+		margin: 50px;
+	}
+	#carouselExampleIndicators1 .carousel-item h4, #carouselExampleIndicators2 .carousel-item h4,
+	#carouselExampleIndicators3 .carousel-item h4 {
+		margin: 60px;
+		font-size: 24px;
+	}
+	/** END OF CAR RATE AND CLASS **/
+	/** ABOUT DEV */
+	#about {
+		margin-top: 50px;
+	}
+	#about-head h3 {
+		font-size: 1.3em;
+	}
+	#about-tile h4 {
+		font-size: 1.2em;
+	}
+	#about-tile h5 {
+		font-size: .9em;
+	}
+	#about-tile p {
+		font-size: 15px;
+	}
+	#about-tile img {
+		margin: 10px 25px 25px 20px;
+	}
+	#cabrange {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	/** END OF ABOUT DEV */	
+	/** CONTECT **/
+	#contect-head h3 {
+		font-size: 1.3em;
+	}
+	#contect h5 {
+		font-size: .9em;
+	}
+	#contect a:hover{
+		font-size: 1.1em;
+	}
+	#contect a h4 {
+		font-size: 2em;
+	}
+	#contect h6 {
+		font-size: .9em;
+	}
+	/** END OF CONTECT **/
+	/** REVIEW **/
+	.review-head h3{
+		font-size: 1.5em;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item {
+		padding: 80px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item p {
+		font-size: 18px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item h5 {
+		font-size: 20px;
+	}
+	/** END OF REVIEW **/
+	/** END OF REVIEW **/
+	#phone , #address {
+		text-align: center;
+		font-size: 18px;
+	}
+	#info {
+		text-align: center;
+		font-size: 16px;
+	}
+	.panel-footer section hr {
+			width: 50%;
+	}
+	#copy p {
+		font-size: 19px;
+	}
+	/* End Footer */
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 18px;
+	}
+
+}
+@media (max-width: 445px) {
+	.navbar-header button {
+		margin-left: 50px;
+	}
+	.navbar-brand {
+		height: 50px;
+		font-size: 8vw;	
+		margin-left: 20px;
+	}
+	/** CONTECT 	 **/
+	#contect a h4 {
+		font-size: 1.6em;
+	}
+	/** END OF CONTECT **/
+	/** REVIEW **/
+	.review-head h3{
+		font-size: 1.5em;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item {
+		padding: 70px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item p {
+		font-size: 15px;
+	}
+	#carouselExampleIndicators4 .carousel-inner .carousel-item h5 {
+		font-size: 18px;
+	}
+	/** END OF REVIEW **/
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 18px;
+	}
+
+}
